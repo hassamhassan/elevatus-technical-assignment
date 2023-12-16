@@ -1,0 +1,7 @@
+SUCCESS = "success"
+NOT_FOUND = "Not found"
+EMAIL_ALREADY_EXIST = "Email already exists"
+USER_REGISTERED_SUCCESSFULLY = "User Registered Successfully"
+INCORRECT_EMAIL_PASSWORD = "Incorrect email or password"
+CANDIDATE_REGISTERED_SUCCESSFULLY = "Candidate Registered Successfully"
+RECORD_DELETED_SUCCESSFULLY = "Record deleted successfully"

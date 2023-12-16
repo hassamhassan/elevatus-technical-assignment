@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "elevatus-technical-assignment"
+version = "0.1.0"
+description = ""
+authors = ["Hassam Hassan <hassamhassan.qc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-jose = "3.3.0"
+fastapi = "^0.105.0"
+uvicorn = "^0.24.0.post1"
+passlib = "^1.7.4"
+pydantic-settings = "^2.1.0"
+motor = "^3.3.2"
+pydantic = {extras = ["email"], version = "^2.5.2"}
+bcrypt = "^4.1.2"
+pytest = "^7.4.3"
+httpx = "^0.25.2"
+pre-commit = "^3.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
