@@ -3,8 +3,10 @@
 # Upgrade pip
 pip install --upgrade pip
 
-# Install packages from requirements.txt
-pip install -r requirements.txt
+# Install packages
+pip install poetry
+
+poetry install
 
 # Set up pre-commit hooks
 pre-commit install
