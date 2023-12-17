@@ -40,7 +40,7 @@ bash ./setup.sh
 
 #### 3. Create `.env` file in the root directory
 ```shell
-cp sample.env .env
+cp .env.sample .env
 ```
 Update the MONGODB_URL environment variables to this `mongodb://localhost:27017/`.
 
